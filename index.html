@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurateur fenêtres</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div id="page">
+            <section id="vue-produit">
+                   
+                        <img id="flecheG" src="Images\flecheG.svg" alt="">
+                        <div id="imageAffichee">
+                            <img id="imgProduit" src="" alt="vue-fenetre-coté">
+                        </div>
+                        <img id="flecheD" src="Images\flecheD.svg" alt="">
+                    
+            </section>
+
+                <section id="vueOptions">
+                    <div>
+                        <h2>Votre <br> configuration</h2>
+                    </div>
+                    <div id="typeOuverture">
+                            <h3>Ouverture</h3>
+                        
+                        <div id="ouvertures">
+                            <img class="select1V" src="Images\modeles\modele1VFYM\7016\poignee1VueCote.png" alt="1 vantail">
+                            <img class="select2V" src="Images\modeles\modele2VFYM\7016\poignee1VueCote.png" alt="2 vantaux">
+                        </div>
+                        <div>
+                            <h4 id="titreOuverture">1 vantail</h4>
+                            <p>Paragraphe de description du produit</p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="typeModele">
+                        <h3>Modèle</h3>
+                
+                        <div id="modelesTechnal1V">
+                            <img class="FYM1V" src="Images\FYM_Technal.png" alt="1 vantail Technal FYM">
+                            <img class="FYA1V" src="Images\FYA_Technal.png" alt="1 vantail Technal FYA">
+                        </div>
+                        <div id="modelesPrefal1V">
+                            <img class="visible1V" src="Images\Visible_Prefal.png" alt="1 vantail Prefal Visible">
+                            <img class="cache1V" src="Images/Cache_Prefal.png" alt="1 vantail Prefal Cache">
+                        </div>
+                        <div id="modelesTechnal2V">
+                            <img class="FYM2V" src="Images\FYM_Technal.png" alt="2 vantaux Technal FYM">
+                            <img class="FYA2V" src="Images\FYA_Technal.png"" alt="2 vantaux Technal FYA">
+                        </div>
+                        <div id="modelesPrefal2V">
+                            <img class="visible2V" src="Images\Visible_Prefal.png" alt="2 vantaux Prefal Visible">
+                            <img class="cache2V" src="Images/Cache_Prefal.png" alt="2 vantaux Prefal Cache">
+                        </div>
+
+                        <h4 id="titreModele">Technal FYM</h4>
+                        <p>Paragraphe de description du produit</p>
+                    </div>
+
+                    <div id="typeFinition">
+                        <h3>Finition</h3>
+                    
+                        <div id="buttonColor">
+                            <button id="RAL9016"></button>
+                            <button id="argent"></button>
+                            <button id="RAL7035"></button>
+                            <button id="RAL7016"></button>
+                            <button id="Champ"></button>
+                            
+                            
+                        </div>
+                   
+                        <div>
+                            <h4 id="titreFinition">RAL 7016</h4>
+                        </div>
+                    </div>
+
+                    <div id="typePoignee">
+                        <h3>Poignée</h3>
+                    
+                        
+                        <div id="poigneesPrefal">
+                            <img id="poigneePrefal1" src="Images\modeles\P1-PREFAL.png" alt="Poignée 1">
+                            <img id="poigneePrefal2" src="Images\modeles\P2-PREFAL.png" alt="Poignée 2">
+                        </div>
+                        <div id="poigneesTechnal">
+                            <img id="poigneeTechnal1" src="Images\modeles\P1.png" alt="Poignée 1">
+                            <img id="poigneeTechnal2" src="Images\modeles\P2.png" alt="Poignée 2">
+                        </div>
+                        <div>
+                            <h4 id="titrePoignee">Poignée Carré Technal</h4>
+                            <p>Paragraphe de description du produit</p>
+                        </div>
+                </div>
+
+                <div id="enregistrerProjet">
+                    <img id="save" src="Images/Save.svg" alt="Button Enregistrer">
+                </div>
+            </section>
+            
+            <section id="vueRecap">
+<img id="back" src="Images/back.svg" alt="">
+                <h2>Votre <br> configuration</h2>
+                <p> Merci d’avoir configuré vos fenêtres avec Different ! Téléchargez dès à présent le résumé de votre configuration et contactez nos équipes afin d’obtenir un chiffrage précis de votre projet.</p>
+            
+            <div id="recapOptions">
+                <!-- Ici apparaitra le recap des options générés dans le JS directement -->
+            </div>
+        </section>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
